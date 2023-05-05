@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Lato&family=Montserrat&family=Noto+Serif+Georgian&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* font-family: 'Bebas Neue'; */
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* header section css start */
+
+
+.header-section{
+    background-image: url(img/header_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 740px;
+}
+div .navbar-nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+div .navbar-nav .nav-item .nav-link:hover{
+    background-color: #ffcc33;
+    border-radius: 10px;
+    color: black;
+}
+
+
+.cab_book{
+    text-align: center;
+    margin-top: 60px;
+}
+.cab_book h1{
+    color: #ffcc33;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+
+}
+.cab_book h4{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+}
+.cab_book p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+
+}
+.image img{
+    width: 820px;
+    height: 450px;
+    position: relative;
+    bottom: -100px;
+    z-index: 5;
+}
+
+/* header section css end */
+
+.cab{
+    background-color: #ffcc33;
+    
+
+}
+.cab-left h4{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.cab-left h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.cab-left .read-btn{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+form input[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+    
+    
+}
+select{
+    border: 0 !important;
+    border-bottom: 3px solid #e4e4e4 !important;
+    border-radius: 0 !important;
+    
+}
+div .submite-btn{
+    font-size: 1.2rem !important;
+    margin: 25px 15px 0px 15px !important;
+    font-weight: 700;
+}
+
+
+.three-card h1{
+    font-weight: 700;
+    color: orange;
+}
+.card{
+    height: 425px !important;
+    font-family: 'Lato', sans-serif;        
+}
+.position-relative{
+    position: relative;
+}
+.star-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.star-image .img{
+    width: 70px;
+    height: 70px;
+}
+.card .card-img-top{
+    position: relative;
+    top: -90px;
+}
+.card .card-body{
+    position: relative;
+    top: -65px;
+}
+.card-body h2{
+    font-weight: 700;
+}
+
+.weDoWish{
+    background-image: url(img/We_do_best_section.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 725px;
+}
+.weDoWish .text p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: -5px;
+}
+.weDoWish .start-image img{
+    width: 90px;
+    height: 85px;
+    margin: 40px 0px 10px 20px;
+    padding-top: 10px;
+}
+.weDoWish .content-text{
+    margin-left: 170px;
+    margin-top:-100px;
+}
+.content-text .text-warning{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.text-btn button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.appstore .download{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.service{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.image-icon img{
+    width: 210px;
+    height: 60px;
+}
+.cab_voucher{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.mobile-image {
+    padding-left: 130px !important;
+    
+}
+
+.mobile-image img{
+    height: 550px;
+    
+}
+.happy-clien{
+    background-image: url(img/happy_clicen.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 615px;
+    position: relative;
+}
+.happy-clien .happy{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.happy-clien .happy1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.say1{
+    position: absolute;
+    top: 230px;
+    background-color: black;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px ;
+}
+.people img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.para{
+    margin: 20px 0 0 50px;
+}
+.people .img-my{
+    margin-top: 85px;
+    margin-left: -70px;
+}
+.name{
+    margin-top: -80px;
+    margin-left: 25px;
+}
+.people {
+    margin-left: 120px;
+    margin-top: -70px;
+}
+.business{
+    
+    margin-top: -10px;
+    margin-left: 30px;
+    
+    
+}
+
+.contact-section h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}
+.contact-section p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}
+.fotter-section{
+    background-color: #000000;
+}
+.fotter-section hr{
+    width: 90%;
+    border: 3px solid #ffcc33; 
+    
+}
+.about{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.icon-image img{
+    width: 20px;
+    height: 20px;
+    color: orange;
+    
+}
+
+.android{
+    font-size: 1.2rem;
+    
+    
+}
+/* .icon-image p img{
+    margin-left: 30px;
+} */
+.icon-image .location{
+    margin: 0;
+}
+.icon-image .para1, .para2, .para3, .para4{
+    margin-top: -25px;
+    margin-left: 40px;
+    
+}
+.copyright-simbol{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .weDoWish{
+        height: 1200px;
+    }
+    .weDoWish .start-image img{
+        margin: 0;
+        
+    }
+    .weDoWish .content-text{
+        margin: 0;
+    
+    }
+    
+    .small-padding{
+        margin-left: -80px;
+    }
+    .contact-section h1{
+        font-size: 14px;
+        
+    }
+    .contact-section p{
+        font-size: 1rem;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .col{
+        margin-top: 60px !important;
+    }
+    .weDoWish .start-image img{
+        width: 60px;
+        height: 55px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .weDoWish .content-text{
+        margin: 0;
+        font-size: 14px;
+    }
+    .content-text .text-warning{
+        font-size: 1rem;
+    }
+    .mobile-image {
+        padding-top: 30px;
+        
+    }
+
+    .say2{
+        margin-top: 260px;
+    }
+    .happy-clien{
+        height: 750px;
+    }
+    .copyright-simbol{
+        font-size: 1rem;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
